@@ -1,0 +1,66 @@
+@tailwind base;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@100..900&family=Permanent+Marker&family=Shadows+Into+Light&display=swap");
+
+@layer base {
+  button {
+    @apply px-6 py-1 bg-white text-black font-semibold;
+  }
+}
+
+.logo-name {
+  font-family: "Gloria Hallelujah", cursive;
+  letter-spacing: 5px;
+}
+
+html {
+  background-color: rgb(10, 10, 10);
+  /* font-family: "Outfit", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+}
+.about-box:hover .about-text-container {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+.spices-bg-container {
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./Components/Assest/spices-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading-box-container:hover img {
+  transform: scale(1.05);
+}
+
+.foods-menu-items:hover .overlay {
+  height: 100%;
+  opacity: 1;
+}
