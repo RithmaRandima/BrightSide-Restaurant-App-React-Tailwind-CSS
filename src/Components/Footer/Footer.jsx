@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3">
         <div className=" w[100%] h-[100%] text-center p-6">
           <h1 className="font-bold md:w-[200px] mx-auto mb-9 text-[18px]">
-            WELCOME TO SOUL KITCHEN
+            WELCOME TO Brightside KITCHEN
           </h1>
           <p className="w-[240px] mx-auto mb-5 text-[15px] text-gray-400">
-            SOUL KITCHEN, founded in 2022, is dedicated to all those who love to
-            wander far and wide.
+            Brighrside KITCHEN, founded in 2022, is dedicated to all those who
+            love to wander far and wide.
           </p>
           <p className="w-[200px] mx-auto text-[15px] text-gray-400">
             We'd like to invite you on a culinary adventure, where you’ll

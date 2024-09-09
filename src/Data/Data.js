@@ -1,7 +1,7 @@
-import pizza from "../Components/Assest/pizza.jpg";
-import fast_food from "../Components/Assest/fast-food.jpg";
-import wings from "../Components/Assest/chicken-wings.jpg";
-import indian_food from "../Components/Assest/indina-food.jpg";
+import pizza from "../Components/Assest/pizza.jpeg";
+import fast_food from "../Components/Assest/fast-food.jpeg";
+import wings from "../Components/Assest/chicken-wings.jpeg";
+import indian_food from "../Components/Assest/indina-food.jpeg";
 
 export const data = [
   {

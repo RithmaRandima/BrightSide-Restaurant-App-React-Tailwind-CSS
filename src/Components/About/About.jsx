@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../Components/Assest/about1.jpg";
-import img2 from "../../Components/Assest/about2.jpg";
+import img1 from "../../Components/Assest/about1.jpeg";
+import img2 from "../../Components/Assest/about2.jpeg";
 
 const About = () => {
   return (
@@ -50,9 +50,10 @@ const About = () => {
         <h1 className="logo-name text-6xl font-bold md:text-8xl mb-7 text-yellow-600">
           BrightSide
         </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          nihil expedita maxime?
+        <p className="w-[60%] mx-auto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed
+          recusandae voluptatem! Harum quasi voluptas atque eveniet mollitia ut
+          repudiandae.
         </p>
       </div>
     </div>

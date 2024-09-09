@@ -1,7 +1,7 @@
 import React from "react";
-import chef_img from "../Assest/chef.jpg";
-import dish1 from "../Assest/dish1.jpg";
-import dish2 from "../Assest/dish.jpg";
+import chef_img from "../Assest/chef.jpeg";
+import dish1 from "../Assest/dish1.jpeg";
+import dish2 from "../Assest/dish.jpeg";
 
 const ChefSection = () => {
   return (

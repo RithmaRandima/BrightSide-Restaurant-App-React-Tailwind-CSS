@@ -1,7 +1,7 @@
 import React from "react";
-import box_image1 from "../Assest/tea.jpg";
-import box_image2 from "../Assest/delights.jpg";
-import box_image3 from "../Assest/drinks-bg.jpg";
+import box_image1 from "../Assest/tea.jpeg";
+import box_image2 from "../Assest/delights.jpeg";
+import box_image3 from "../Assest/drinks-bg.jpeg";
 
 function HeadingCard() {
   return (

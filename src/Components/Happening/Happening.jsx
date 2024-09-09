@@ -1,7 +1,7 @@
 import React from "react";
-import img from "../Assest/happening-img1.jpg";
-import img2 from "../Assest/happening-img2.jpg";
-import img3 from "../Assest/happening-img3.jpg";
+import img from "../Assest/happening-img1.jpeg";
+import img2 from "../Assest/happening-img2.jpeg";
+import img3 from "../Assest/happening-img3.jpeg";
 
 function Happening() {
   return (
