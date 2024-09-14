@@ -16,7 +16,7 @@ const About = () => {
           fugiat eveniet quisquam vero nostrum qui!lorem
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 p-10 ">
+      <div className="grid grid-cols-1 md:gap-6 md:grid-cols-2 pb-2 md:pb-6 md:p-10 ">
         <div className="about-box w-[100%] h-[300px] mx-auto overflow-hidden relative">
           <div className="bg-gradient-to-t from-black/55 to-black/75 w-[100%] h-[100%] text-white absolute z-10">
             <div className="about-text-container opacity-0 absolute bottom-[50%] left-[50%] translate-x-[-50%] text-center translate-y-[250%] duration-500">

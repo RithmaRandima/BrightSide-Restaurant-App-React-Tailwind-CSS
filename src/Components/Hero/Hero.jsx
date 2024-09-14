@@ -24,7 +24,7 @@ function Hero() {
           </div>
         </div>
         <img
-          className="w-full max-h-[90vh] object-cover object-top"
+          className="w-full h-[55vh] md:max-h-[90vh] object-cover object-top"
           src={bg_image}
           alt=""
         />

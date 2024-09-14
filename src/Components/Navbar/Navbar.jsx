@@ -22,7 +22,7 @@ function Navbar() {
         </h1>
       </div>
       {/* search input */}
-      <div className="bg-[rgb(20,20,20)] rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
+      <div className="bg-[rgb(20,20,20)] rounded-full hidden md:flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]">
         <AiOutlineSearch size={25} className="text-white" />
         <input
           className="bg-transparent p-2 w-full outline-none text-white placeholder:text-gray-600"

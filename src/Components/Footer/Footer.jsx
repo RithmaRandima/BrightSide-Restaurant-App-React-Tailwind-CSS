@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <div className="w-[100%] text-white  bg-[#151515]">
       <div className="grid grid-cols-1 md:grid-cols-4 pb-9 pt-3">
-        <div className=" w[100%] h-[100%] text-center p-6">
+        {/* col-1 */}
+        <div className="hidden md:block w-[100%] h-[100%] text-center p-6">
           <h1 className="font-bold md:w-[200px] mx-auto mb-9 text-[18px]">
             WELCOME TO Brightside KITCHEN
           </h1>
@@ -19,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         {/*col-2  */}
-        <div className=" w[100%] h-[100%] text-center p-6">
+        <div className="hidden md:block w-[100%] h-[100%] text-center p-6">
           <h1 className="font-bold mb-5 text-[18px]">VISIT</h1>
           <p className="w-[180px] mx-auto text-[14px] text-gray-400">
             317 Pacific C Hwy Huntington, CA 92648
@@ -52,9 +53,11 @@ const Footer = () => {
         </div>
         {/* col-4 */}
         <div className="text-center">
-          <h1 className="font-bold my-5 text-[18px]">ABOUT</h1>
-          <p className="mx-auto text-[14px] text-gray-400">FAQ</p>
-          <p className="w-[50%] mx-auto text-[14px] text-gray-400 mb-7">
+          <h1 className="hidden md:block font-bold my-5 text-[18px]">ABOUT</h1>
+          <p className="hidden md:block mx-auto text-[14px] text-gray-400">
+            FAQ
+          </p>
+          <p className="hidden md:block w-[50%] mx-auto text-[14px] text-gray-400 mb-7">
             Reservation Policy Privacy Policy Health & Safety
           </p>
           <h1 className="font-bold my-5 text-[18px]">FOLLOW ALONG</h1>
@@ -73,12 +76,12 @@ const Footer = () => {
       </div>
 
       {/* bottom */}
-      <div className="flex flex-col md:flex-row md:justify-between px-10 justify-center items-center py-4 gap-7 pb-[17px]  bg-[#202020] text-white">
-        <p className="text-[10px] md:text-[8px] tracking-[4px]">
+      <div className="flex flex-row justify-between px-2 md:px-10  items-center py-4 gap-7 pb-[17px]  bg-[#202020] text-white">
+        <p className="hidden md:block text-[8px] tracking-[4px]">
           © 2023 BRIGHTSIDE. ALL RIGHTS RESERVED.
         </p>
-        <p className="logo-name text-3xl ">BrightSide</p>
-        <p className="text-[10px] font-bold tracking-[4px]">
+        <p className="logo-name text-sm md:text-3xl ">BrightSide</p>
+        <p className="text-[8px] md:text-[10px] font-bold tracking-[4px]">
           TASTE THE DIFFERENCE
         </p>
       </div>

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { data } from "../../Data/Data";
+import { foodData, foodDataata } from "../../Data/Data";
 
 function Food() {
-  const [foods, setFoods] = useState(data);
+  const [foods, setFoods] = useState(foodData);
 
   // filter by type
   const filterType = (category) => {
     setFoods(
-      data.filter((item) => {
+      foodData.filter((item) => {
         return item.Category === category;
       })
     );
@@ -17,7 +17,7 @@ function Food() {
 
   const filterPrice = (price) => {
     setFoods(
-      data.filter((item) => {
+      foodData.filter((item) => {
         return item.price === price;
       })
     );
@@ -44,7 +44,7 @@ function Food() {
           </p>
           <div className="flex justify-between flex-wrap">
             <button
-              onClick={() => setFoods(data)}
+              onClick={() => setFoods(foodData)}
               className="m-1 text-black hover:bg-transparent hover:text-white"
             >
               All
