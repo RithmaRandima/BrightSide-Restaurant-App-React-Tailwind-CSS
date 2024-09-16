@@ -4,9 +4,9 @@ import bg_image from "../Assest/hero-background.jpeg";
 function Hero() {
   return (
     <div className="max-w-[1640px] mt-16 mx-auto ">
-      <div className="max-h-[90vh] relative">
+      <div className="md:h-[90vh] h-[60vh]   relative">
         {/*overlay  */}
-        <div className="absolute w-full h-full text-white max-h-[90vh] bg-gradient-to-r from-black/100 to-black/25 flex items-center justify-center md:justify-start z-20">
+        <div className="absolute w-full h-[60vh] text-white md:h-[90vh] bg-gradient-to-r from-black/100 to-black/25 flex items-center justify-center md:justify-start z-20">
           <div className=" px-4 w-[80vw]  md:w-[50vw] text-center">
             <h1 className=" text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold my-5">
               The <span className="logo-name text-yellow-600">BrightSide</span>
@@ -24,7 +24,7 @@ function Hero() {
           </div>
         </div>
         <img
-          className="w-full h-[55vh] md:max-h-[90vh] object-cover object-top"
+          className="w-full h-[60vh] md:h-[90vh] object-cover object-top"
           src={bg_image}
           alt=""
         />
